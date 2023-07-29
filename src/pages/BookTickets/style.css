@@ -1,0 +1,58 @@
+.screen {
+  border-bottom: 30px solid rgb(67, 218, 196);
+  /* border-top-left-radius: 50px solid transparent; */
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 60;
+  width: 100%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.177));
+  font-size: 15px;
+  color: #fff !important;
+  filter: sepia(2%) brightness(10%) saturate(0%) contrast(47%);
+  -webkit-filter: sepia(2%) brightness(10%) saturate(0%) contrast(47%);
+  -moz-filter: sepia(2%) brightness(10%) saturate(0%) contrast(47%);
+}
+
+.ghe {
+  /* ghế thường*/
+  width: 35px;
+  height: 35px;
+  border: 1px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 7px;
+  background-color: rgb(112, 101, 84);
+  /* hover: */
+}
+.ghe:hover {
+  background-color: rgb(147, 97, 22);
+  transition: all 0.5s;
+}
+.gheDaDat {
+  background-color: rgba(90, 79, 63, 0.208);
+  cursor: no-drop;
+}
+
+.gheDangDat {
+  background-color: greenyellow !important;
+}
+
+.gheVip {
+  background-color: orange;
+}
+.yourdesk {
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border: 1px solid olivedrab;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-tabs-top > .ant-tabs-nav,
+:where(.css-dev-only-do-not-override-14wwjjs).ant-tabs-bottom > .ant-tabs-nav,
+:where(.css-dev-only-do-not-override-14wwjjs).ant-tabs-top
+  > div
+  > .ant-tabs-nav,
+:where(.css-dev-only-do-not-override-14wwjjs).ant-tabs-bottom
+  > div
+  > .ant-tabs-nav {
+  margin-bottom: 0;
+}
