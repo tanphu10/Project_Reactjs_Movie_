@@ -229,12 +229,12 @@ const BookTickets = (props) => {
               <hr />
               <div className="my-5 mr-4 ">
                 <i className="mr-3  text-white">Email :</i>
-                <span className=" text-red-600 ">{hoTen.email}</span>
+                <span className=" text-red-600 ">{hoTen?.email}</span>
               </div>
               <hr />
               <div className="my-5 mr-4 flex ">
                 <i className="mr-3  text-white">Số Điện Thoại :</i>
-                <span className=" text-red-600 ">{hoTen.soDT}</span>
+                <span className=" text-red-600 ">{hoTen?.soDT}</span>
               </div>
               <hr />
               <div className="flex flex-col justify-end items-center">

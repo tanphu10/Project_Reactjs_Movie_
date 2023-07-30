@@ -5,7 +5,7 @@ export const movieServ = {
     return https.get("/api/QuanLyPhim/LayDanhSachBanner");
   },
   getAllMovie: () => {
-    return https.get("api/QuanLyPhim/LayDanhSachPhim?maNhom=GP06");
+    return https.get("api/QuanLyPhim/LayDanhSachPhim?maNhom=GP08");
   },
   getDetailsMovie: (maPhim) => {
     return https.get(`/api/QuanLyPhim/LayThongTinPhim?MaPhim=${maPhim}`);
