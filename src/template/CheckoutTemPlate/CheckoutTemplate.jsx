@@ -6,6 +6,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 
 const CheckoutTemplate = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     // gọi dữ liệu từ local lên
     const user = layDuLieuLocal("user");
@@ -13,7 +14,7 @@ const CheckoutTemplate = () => {
     if (user) {
       console.log(user);
     } else {
-      window.location.href = "http://localhost:3000/login";
+      return navigate("/login");
     }
   }, []);
 
